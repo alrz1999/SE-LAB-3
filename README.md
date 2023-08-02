@@ -1,1 +1,5 @@
-# SE-LAB3
+# SE-LAB-3
+
+## Team members
+* Alireza Ziaee
+* Abdollah Zohrabi
