@@ -23,6 +23,12 @@ public class MyStepdefs {
         value2 = arg1;
     }
 
+    @Given("^Two input values, -(\\d+) and (\\d+)$")
+    public void two_input_values_and(int arg0, int arg1) {
+        value1 = -  arg0;
+        value2 = arg1;
+    }
+
     @When("^I add the two values$")
     public void iAddTheTwoValues() {
         result = calculator.add(value1, value2);
