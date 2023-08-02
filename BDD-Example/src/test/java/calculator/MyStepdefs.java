@@ -18,15 +18,21 @@ public class MyStepdefs {
     }
 
     @Given("^Two input values, (\\d+) and (\\d+)$")
-    public void twoInputValuesAnd(int arg0, int arg1) {
+    public void two_positive_input_values_and(int arg0, int arg1) {
         value1 = arg0;
         value2 = arg1;
     }
 
     @Given("^Two input values, -(\\d+) and (\\d+)$")
-    public void two_input_values_and(int arg0, int arg1) {
-        value1 = -  arg0;
+    public void two_negative_positive_input_values_and(int arg0, int arg1) {
+        value1 = - arg0;
         value2 = arg1;
+    }
+
+    @Given("^Two input values, (\\d+) and -(\\d+)$")
+    public void two_positive_negative_input_values_and(int arg0, int arg1) {
+        value1 = arg0;
+        value2 = - arg1;
     }
 
     @When("^I add the two values$")
@@ -36,7 +42,12 @@ public class MyStepdefs {
     }
 
     @Then("^I expect the result (\\d+)$")
-    public void iExpectTheResult(int arg0) {
+    public void i_expect_the_positive_result(int arg0) {
         Assert.assertEquals(arg0, result);
+    }
+
+    @Then("^I expect the result -(\\d+)$")
+    public void i_expect_the_negative_result(int arg0) {
+        Assert.assertEquals(-arg0, result);
     }
 }
