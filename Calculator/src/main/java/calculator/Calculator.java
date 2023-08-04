@@ -12,11 +12,30 @@ public class Calculator {
     }
 
     public int division(int a, int b) {
-        return a / b;
+        if (b !=0) {
+            return a/b;
+        }
+
+        else {
+            throw new ArithmeticException(null);
+        }
+
+
     }
 
     public int power(int a, int b) {
-        return (int) Math.pow(a, b);
+        Object obj1 = b;
+        Object obj2 =a;
+
+
+
+        if(obj1 instanceof Integer[] ||a>=-1){
+            return (int) Math.pow(a, b);
+        }
+        else {
+            throw new ArithmeticException(null);
+        }
+
     }
 
     enum OperationType {
