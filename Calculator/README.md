@@ -16,4 +16,5 @@
 تست های اضافه شده:
 
 ![Screenshot 2023-08-04 191019](https://github.com/morethanwords/tweb/assets/101315890/28967835-221e-4f8f-9971-e3724edb172c)
-
+تغییرات در کلاس `CalculatorStepdef`:
+![Screenshot 2023-08-04 191446](https://github.com/alrz1999/SE-LAB-3/assets/101315890/bc22a0b8-f6a9-482d-b1e0-21a14f2b6213)
