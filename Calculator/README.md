@@ -13,3 +13,7 @@
 ![image](https://github.com/alrz1999/SE-LAB-3/assets/45371919/3683f2b5-634d-44c8-ba1f-95b14e239abd)
 
 در این قسمت هم برای یکسری از عملیات ها مثل `0/0` که تعریف نشده است و عملیات هایی از این دست تست هایی اضافه کردیم و برای گرفتن `exeption` تغیراتی در کلاس `CalculatorStepdef` در`before,Given,When,Then` اعمال کردیم.
+تست های اضافه شده:
+
+![Screenshot 2023-08-04 191019](https://github.com/morethanwords/tweb/assets/101315890/28967835-221e-4f8f-9971-e3724edb172c)
+
